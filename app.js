@@ -44,6 +44,8 @@ $(function() {
       if(integer  === 0.1){
         integer = 1;
       }
+
+      $('#sampleNameText').text('samples/soundKitA/' + event.keyCode + '.wav');
       audio.volume = integer;
       audio.play();
   });
